@@ -17,9 +17,14 @@ import org.springframework.web.bind.annotation.RestController;
 @CrossOrigin(allowedHeaders="*", value="*")
 public class Controller {
     
-    @GetMapping(value="/welcome")
-    public String welcome(){
+    @GetMapping(value="/welcome1")
+    public String welcomeEdufect(){
         return "welcome to edufect";
+    }
+    
+    @GetMapping(value="/welcome2")
+    public String welcomeTrisect(){
+        return "welcome to trisect";
     }
     
 }
