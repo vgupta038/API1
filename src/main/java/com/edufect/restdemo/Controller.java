@@ -27,4 +27,9 @@ public class Controller {
         return "welcome to trisect";
     }
     
+    @GetMapping(value="/welcome3")
+    public String welcomeNewgen(){
+        return "welcome to Newgen";
+    }
+    
 }
