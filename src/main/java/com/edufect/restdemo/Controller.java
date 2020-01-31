@@ -27,7 +27,7 @@ public class Controller {
         return "welcome to trisect";
     }
     
-    @GetMapping(value="/welcome3")
+    @GetMapping(value="/welcome3to2to1")
     public String welcomeNewgen(){
         return "welcome to Newgen";
     }
